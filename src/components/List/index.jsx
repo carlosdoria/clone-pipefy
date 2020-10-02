@@ -1,8 +1,22 @@
-import * as S from 'styles';
+import Card from '../Card'
+
+import { MdAdd } from 'react-icons/md';
+
+import * as S from './styles';
 
 const List = () => (
   <S.Wrapper>
-    <h1>List</h1>
+    <S.Header>
+      <h2>Tarefas</h2>
+      <button>
+        <MdAdd size={24} color='#000' />
+      </button>
+    </S.Header>
+
+    <ul>
+      <Card />
+      <Card />
+    </ul>
   </S.Wrapper>
 )
 

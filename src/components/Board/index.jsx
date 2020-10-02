@@ -1,8 +1,12 @@
-import * as S from 'styles';
+import List from '../List'
+
+import * as S from './styles';
 
 const Board = () => (
   <S.Wrapper>
-    <h1>Board</h1>
+    <List />
+    <List />
+    <List />
   </S.Wrapper>
 )
 

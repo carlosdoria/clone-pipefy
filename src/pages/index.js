@@ -1,10 +1,11 @@
 import Header from '../components/Header'
+import Board from '../components/Board'
 
 export default function Home() {
   return (
     <>
       <Header />
-      <h1>asd</h1>
+      <Board />
     </>
   )
 }

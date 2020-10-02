@@ -1,8 +1,14 @@
-import * as S from 'styles';
+import * as S from './styles';
 
 const Card = () => (
   <S.Wrapper>
-    <h1>Card</h1>
+    <S.Header>
+      <S.Label />
+    </S.Header>
+    <p>
+      asdasd
+    </p>
+    <S.Image src='https://api.adorable.io/avatars/40/test.png' alt='' />
   </S.Wrapper>
 )
 
