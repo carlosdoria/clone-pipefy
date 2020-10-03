@@ -3,11 +3,11 @@ import * as S from './styles';
 const Card = () => (
   <S.Wrapper>
     <S.Header>
-      <S.Label />
+      <S.Label color='#7159c1' />
     </S.Header>
-    <p>
+    <S.P>
       asdasd
-    </p>
+    </S.P>
     <S.Image src='https://api.adorable.io/avatars/40/test.png' alt='' />
   </S.Wrapper>
 )
