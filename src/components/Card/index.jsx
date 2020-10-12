@@ -12,7 +12,7 @@ export default function Card ({ data }) {
   });
 
   return (
-    <S.Wrapper ref={dragRef}>
+    <S.Wrapper ref={dragRef} isDragging={isDragging}>
       <S.Header>
         {data.labels.map(label => <S.Label key={label} color={label}/>)}
       </S.Header>
