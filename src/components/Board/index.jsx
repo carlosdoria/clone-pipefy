@@ -1,12 +1,14 @@
-import List from '../List'
+import { loadLists } from '../../services/api';
+
+import List from '../List';
 
 import * as S from './styles';
 
+const lists = loadLists()
+
 const Board = () => (
   <S.Wrapper>
-    <List />
-    <List />
-    <List />
+    {lists.map(list => <List key={list.title} data={list} />)}
   </S.Wrapper>
 )
 

@@ -4,18 +4,19 @@ import { MdAdd } from 'react-icons/md';
 
 import * as S from './styles';
 
-const List = () => (
-  <S.Wrapper>
+const List = ({ data }) => (
+  <S.Wrapper done={data.done}>
     <S.Header>
-      <h2>Tarefas</h2>
-      <button>
-        <MdAdd size={24} color='#000' />
-      </button>
+      <h2>{data.title}</h2>
+      {data.creatable && (
+        <button>
+          <MdAdd size={24} color='#000' />
+        </button>
+      )}
     </S.Header>
 
     <ul>
-      <Card />
-      <Card />
+      {data.cards.map(card => <Card key={card.id} data={card}/>)}
     </ul>
   </S.Wrapper>
 )

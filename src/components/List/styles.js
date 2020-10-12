@@ -7,6 +7,7 @@ export const Wrapper = styled.div`
   flex-shrink (ability of an element to reduce more than its size) and
   flex-basis (determines base size of the element) */
   flex: 0 0 320px;
+  opacity: ${props => props.done ? 0.6 : 1};
 
   & + div {
     border-left: 1px solid  rgba(0, 0, 0, 0.09);

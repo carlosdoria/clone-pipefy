@@ -13,7 +13,7 @@ export const Wrapper = styled.div`
 
 export const Header = styled.h2`
   position: absolute;
-  top: -18px;
+  top: -16px;
   left: 15px;
 `;
 
@@ -27,7 +27,7 @@ export const Label = styled.span`
   width: 12px;
   border-radius: 2px;
   display: inline-block;
-  background: ${props => props.color}
+  background: ${props => props.color};
 `;
 
 export const Image = styled.img`

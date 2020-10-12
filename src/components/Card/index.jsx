@@ -1,14 +1,14 @@
 import * as S from './styles';
 
-const Card = () => (
+const Card = ({ data }) => (
   <S.Wrapper>
     <S.Header>
-      <S.Label color='#7159c1' />
+      {data.labels.map(label => <S.Label key={label} color={label}/>)}
     </S.Header>
     <S.P>
-      asdasd
+      {data.content}
     </S.P>
-    <S.Image src='https://api.adorable.io/avatars/40/test.png' alt='' />
+    {data.user && <S.Image src='https://api.adorable.io/avatars/40/test.png' alt='' />}
   </S.Wrapper>
 )
 
