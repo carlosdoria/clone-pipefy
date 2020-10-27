@@ -8,7 +8,7 @@
 
 <br>
 
-![GitHub](https://img.shields.io/github/license/Programacao-Orientada-a-Estagiario-POE/hangman-game-backend-v2)
+![GitHub](https://img.shields.io/github/license/carlosdoria/clone-pipefy)
 <br>
 
 ![Print da Home Page](https://github.com/carlosdoria/clone-pipefy/blob/main/public/images/Home-page.png)
