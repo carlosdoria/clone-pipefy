@@ -1,30 +1,77 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align='center'><strong>Pipefy - Clone UI</strong></h1>
 
-## Getting Started
+## Índice
 
-First, run the development server:
+- [Sobre o Projeto](#sobre-o-projeto)
+- [Tecnologias e ferramentas utilizadas](#tecnologias-e-ferramentas-utilizadas)
+- [Iniciando o projeto](#iniciando-o-projeto)
 
-```bash
-npm run dev
-# or
+<br>
+
+![GitHub](https://img.shields.io/github/license/Programacao-Orientada-a-Estagiario-POE/hangman-game-backend-v2)
+<br>
+
+![Print da Home Page](https://github.com/carlosdoria/clone-pipefy/blob/master/public/images/Home-page.png)
+
+## Sobre o Projeto
+
+Simples clone da interface de usuário do Pipefy, esse projeto teve como objetivo aprender a utilizar drag n' drop através da biblioteca 'react dnd'. <br>
+Projeto desenvolvido com base em um vídeo da [Rocketseat](https://app.rocketseat.com.br/), link do [vídeo](https://www.youtube.com/watch?v=awRtgpRsdTQ&list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp&index=14)!
+
+<br>
+
+<!-- ## Deploy
+
+Link do deploy:
+[Deploy]()
+
+<br> -->
+
+## Tecnologias e ferramentas utilizadas
+
+O projeto foi desenvolvido com as seguintes tecnologias e ferramentas:
+
+- NextJS;
+- HTML5;
+- CSS3;
+- ES6+;
+- Drag n' drop;
+- Styled Components.
+
+<br>
+
+## Iniciando o projeto
+
+No seu terminal, realize o clone deste respositório:
+
+```
+git clone https://github.com/carlosdoria/clone-pipefy.git
+```
+
+Em seguida entre no diretório:
+
+```
+cd clone-pipefy
+```
+
+Para rodar a aplicação execute o comando:
+
+```
 yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Por fim, caso o navegador não abra automaticamente uma aba com a aplicação, acesse o seguinte link:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-## Learn More
+<!-- ## Como contribuir
 
-To learn more about Next.js, take a look at the following resources:
+ -->
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<br>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Desenvolvido por [Carlos Dória](https://github.com/carlosdoria)

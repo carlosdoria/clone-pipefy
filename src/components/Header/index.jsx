@@ -2,7 +2,7 @@ import * as S from './styles';
 
 const Header = () => (
     <S.Wrapper>
-      <h1>Header</h1>
+      <h1>Pipefy - Clone UI</h1>
     </S.Wrapper>
 )
 
