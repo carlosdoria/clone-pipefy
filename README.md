@@ -11,7 +11,7 @@
 ![GitHub](https://img.shields.io/github/license/Programacao-Orientada-a-Estagiario-POE/hangman-game-backend-v2)
 <br>
 
-![Print da Home Page](https://github.com/carlosdoria/clone-pipefy/blob/master/public/images/Home-page.png)
+![Print da Home Page](https://github.com/carlosdoria/clone-pipefy/blob/main/public/images/Home-page.png)
 
 ## Sobre o Projeto
 
